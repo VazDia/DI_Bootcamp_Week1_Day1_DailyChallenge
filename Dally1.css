@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+body{
+  background-image: url("avanger.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: absolute;
+}
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+   
+  }
+ .corps{
+   width:50%;
+   margin-top:290px;
+   margin-left: 30px;
+   
+ }
+ .w-text{
+  display:flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width:50%;
+ }
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    font-family:Arial, sans-serif;
+    font-weight:bold;
+    margin-right:70px;
+    margin-bottom:20px;
+  }
+
+h1{
+    font-size: 80px;
+    font-family:helvetica, sans-serif;
+}
+section p{
+font-size:17,5px;
+}
+
+footer{
+  display:flex;
+  justify-content: space-around;
+  border:solid white 1px;
+  background-color: black;
+  margin-top: 30px;
+  height:30px;
+  padding: 0px;
+
+}
+.back a,.about a{
+  margin-right:10px;
+  text-decoration: none;
+  color:white;
+  font-weight:bold;
+}
